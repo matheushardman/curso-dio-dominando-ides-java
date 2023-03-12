@@ -14,9 +14,6 @@ public class Gato {
 		this.idade = idade;
 	}
 
-	public Gato() {
-	}
-
 	public String getNome() {
 		return nome;
 	}
@@ -62,10 +59,4 @@ public class Gato {
 	public String toString() {
 		return "Gato [nome=" + nome + ", cor=" + cor + ", idade = " + idade + "]";
 	}
-
-	/*
-	 * public Gato(String nome, String cor, Integer idade) { this.nome = nome;
-	 * this.cor = cor; this.idade = idade; }
-	 */
-
 }
